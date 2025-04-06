@@ -13,14 +13,17 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@paypal/react-paypal-js": "^8.3.0",
     "@react-three/cannon": "^6.6.0",
     "@react-three/drei": "^9.105.6",
     "@reduxjs/toolkit": "^2.2.5",
     "apexcharts": "^3.49.1",
     "axios": "^1.7.2",
-    "drei": "^2.2.21",
+    "drei": "^0.0.45",
     "flowbite": "^2.3.0",
     "font-awesome": "^4.7.0",
     "gh-pages": "^6.3.0",
