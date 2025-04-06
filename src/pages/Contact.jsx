@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom'; // import useLocation
 import Navbar from "../components/ContactPage/NavbarContact";
-import CVDownload from "../components/CVDownload";
 import Footer from "../components/ContactPage/FooterContact";
 import HeroSec from "../components/ContactPage/HeroSecContact";
 import { TypeAnimation } from 'react-type-animation';
@@ -55,7 +54,6 @@ const Contact = () => {
             <ContactForm />
           </div>
         </section>
-        <CVDownload />
         <Footer />
       </>
     </div>

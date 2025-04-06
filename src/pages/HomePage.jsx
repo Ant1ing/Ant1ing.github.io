@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom'; // import useLocation
 import HeroSec from "../components/HomePage/HeroSec";
 import Navbar from "../components/Navbar";
-import CVDownload from "../components/CVDownload";
 import Footer from "../components/Footer";
 import AboutMe from "../components/HomePage/AboutMe";
 import Skill from "../components/HomePage/Skill";
@@ -52,7 +51,6 @@ const HomePage = () => {
       </div>
       <>
         <Navbar />
-        <CVDownload />
         <HeroSec />
         <section id="aboutMe">
           <div id="nextSection">
