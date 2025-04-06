@@ -1,5 +1,4 @@
 
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const CVDownload = () => {
   return (
